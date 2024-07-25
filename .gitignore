@@ -94,3 +94,4 @@ Thumbs.db
 # Single-site-specific plugins and themes #
 ###########################################
 !/wp-content/plugins/duplicate-post
+!/wp-content/themes/my-custom-theme
