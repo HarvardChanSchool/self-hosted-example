@@ -1,8 +1,15 @@
 {
-    "name": "harvardchanschool/your-self-hosted-website",
+    "name": "harvardchanschool/self-hosted-example",
     "type": "project",
-    "require": {},
-    "repositories": [],
+    "require": {
+        "harvardchanschool/plugin-widget-visibility": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/HarvardChanSchool/plugin-widget-visibility"
+        }
+		],
     "config": {
         "allow-plugins": {
             "composer/installers": true
